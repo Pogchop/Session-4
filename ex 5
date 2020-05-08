@@ -1,0 +1,17 @@
+int main()
+{
+    int basicsalary=12000;
+    int da = basicsalary/100*12;
+    int hra = 150;
+    int ta = 120;
+    int others = 450;
+    int pf = basicsalary/100*14;
+    int it = basicsalary/100*15;
+    int netsalary = basicsalary+da+hra+ta+others-(pf+it);
+    printf("%d",netsalary);
+
+    
+
+
+    return 0;
+}

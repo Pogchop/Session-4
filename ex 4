@@ -1,0 +1,21 @@
+int main()
+{
+    int h;
+    float r;
+    float pi = 3.14;
+    float volume;
+    
+    printf("height = ");
+    scanf("%d",&h);
+    
+    printf("radius = ");
+    scanf("%f",&r);
+    
+    volume = pi*r*r*h;
+    
+    printf("volume = %f",volume);
+    
+
+
+    return 0;
+}

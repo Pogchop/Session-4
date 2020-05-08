@@ -1,0 +1,21 @@
+int main()
+{
+    int h;
+    int w;
+    int area;
+    int perimeter;
+    
+    printf("height = ");
+    scanf("%d",&h);
+    
+    printf("\nwidth = ");
+    scanf("%d",&w);
+    
+    area = h*w;
+    perimeter = (h+w)*2;
+    printf("\narea = %d",area);
+    printf("\nperimeter = %d",perimeter);
+
+
+    return 0;
+}
